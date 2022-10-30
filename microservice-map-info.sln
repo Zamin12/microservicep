@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice-map-info", "microservice-map-info\microservice-map-info.csproj", "{3E07F891-6682-42AD-9BBB-3E530B4D45D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapInfo", "GoogleMapInfo\GoogleMapInfo.csproj", "{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E07F891-6682-42AD-9BBB-3E530B4D45D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E07F891-6682-42AD-9BBB-3E530B4D45D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E07F891-6682-42AD-9BBB-3E530B4D45D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E07F891-6682-42AD-9BBB-3E530B4D45D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C78A30B3-9256-4972-BD1B-9A982E0AF1C3}
+	EndGlobalSection
+EndGlobal
