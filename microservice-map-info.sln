@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice-map-info", "mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapInfo", "GoogleMapInfo\GoogleMapInfo.csproj", "{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice-map-info-grpc-client", "microservice-map-info-grpc-client\microservice-map-info-grpc-client.csproj", "{9B8B558F-1D32-40CA-982C-048D42AA0174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice-map-info-grpc-server", "microservice-map-info-grpc-server\microservice-map-info-grpc-server.csproj", "{4F043DA6-D2DC-4589-AE2B-623842F60758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B459CED-5454-4787-8FE8-B2C7B31EF2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8B558F-1D32-40CA-982C-048D42AA0174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8B558F-1D32-40CA-982C-048D42AA0174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8B558F-1D32-40CA-982C-048D42AA0174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8B558F-1D32-40CA-982C-048D42AA0174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F043DA6-D2DC-4589-AE2B-623842F60758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F043DA6-D2DC-4589-AE2B-623842F60758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F043DA6-D2DC-4589-AE2B-623842F60758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F043DA6-D2DC-4589-AE2B-623842F60758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
