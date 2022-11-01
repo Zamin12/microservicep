@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "microservice-map-info-grpc-server": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5020;https://localhost:7105",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

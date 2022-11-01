@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>microservice_map_info_grpc_client</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Grpc.Tools" />
+    <None Remove="Google.Protobuf" />
+    <None Remove="Grpc.Net.ClientFactory" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grpc.Tools" Version="2.23.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Google.Protobuf" Version="3.9.1" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.23.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="..\microservice-map-info-grpc-server\Protos\distance.proto" GrpcServices="Client">
+      <Link>Protos\distance.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+</Project>
